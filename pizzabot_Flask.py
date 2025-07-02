@@ -7,7 +7,7 @@ Created on Wed Jul  2 17:08:48 2025
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from chatbot_logic import get_response
+from pizzabot_Logic import get_response
 
 app = Flask(__name__)
 CORS(app)
